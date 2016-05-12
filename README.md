@@ -5,7 +5,7 @@ Database query
 
 SELECT UserName 
   FROM [User]
-  where (Email is null or Email = '') or (Phone is null or Phone = '')
+  where (Email is null or Email = ' ') or (Phone is null or Phone = ' ')
 
 2.2
 SELECT UserName, Address 
